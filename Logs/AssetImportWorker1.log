@@ -1,0 +1,703 @@
+Unity Editor version:    2021.3.20f1 (577897200b8b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3 (Build 22E252)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/mac/Desktop/Github/Nested_Scroller
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49653
+Successfully changed project path to: /Users/mac/Desktop/Github/Nested_Scroller
+/Users/mac/Desktop/Github/Nested_Scroller
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704342774592] Host "[IP] 192.168.5.226 [Port] 0 [Flags] 2 [Guid] 1351900339 [EditorId] 1351900339 [Version] 1048832 [Id] OSXEditor(0,macs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704342774592] Host "[IP] 192.168.5.226 [Port] 0 [Flags] 2 [Guid] 1351900339 [EditorId] 1351900339 [Version] 1048832 [Id] OSXEditor(0,macs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 49.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac/Desktop/Github/Nested_Scroller/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56242
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001379 seconds.
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 99 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (323ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1926ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (875ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (Unknown). Loaded Objects now: 2735.
+Memory consumption went from 82.6 MB to 82.7 MB.
+Total: 8.295059 ms (FindLiveObjects: 0.275147 ms CreateObjectMapping: 0.175574 ms MarkObjects: 7.700781 ms  DeleteObjects: 0.142366 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-shader:  -> 00a0da0d000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1789.124582 seconds.
+  path: Assets/Scrmizu
+  artifactKey: Guid(96c4826ac2a61c74d9759c5f587f86cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu using Guid(96c4826ac2a61c74d9759c5f587f86cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490ee8307dbed96afaede7982ec24013') in 0.005547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011806 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Textures
+  artifactKey: Guid(fd948ff648ccc4d288421f45254bcc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Textures using Guid(fd948ff648ccc4d288421f45254bcc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a77c3fcb8555cb91bc9234ff203161') in 0.000820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009426 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime
+  artifactKey: Guid(8a0d4951f1d81104986fb3f224d2d5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime using Guid(8a0d4951f1d81104986fb3f224d2d5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4759d9c3cdb1255b25d95a6eb0a5c') in 0.001333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/Scrmizu.Sample.asmdef
+  artifactKey: Guid(4ecf444d81899154e8966446e45877ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/Scrmizu.Sample.asmdef using Guid(4ecf444d81899154e8966446e45877ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2393ba053015c4780f2ec5cf2238a6') in 0.125515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/ScrollController.cs
+  artifactKey: Guid(6d89442c55f1f4d8e9736f1abce84792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/ScrollController.cs using Guid(6d89442c55f1f4d8e9736f1abce84792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e5f121e507c312a42bb17f9ef9148c') in 0.239575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources
+  artifactKey: Guid(78df5790666ef944ea9ffee7e1ffd3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources using Guid(78df5790666ef944ea9ffee7e1ffd3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90506d075c370a4ba9f9b237f5df3c63') in 0.000631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/ScrollItemData.cs
+  artifactKey: Guid(c46e7fbcd8bee4a50914a1b36203dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/ScrollItemData.cs using Guid(c46e7fbcd8bee4a50914a1b36203dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341936567d83f029382398bc9b3f588') in 0.001352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003484 seconds.
+  path: Assets/Scrmizu/Scripts/Runtime/NestedScrollRect.cs
+  artifactKey: Guid(0663cd09199a414aa3aa049d88397a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu/Scripts/Runtime/NestedScrollRect.cs using Guid(0663cd09199a414aa3aa049d88397a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f6c3a072fc22ca38d4c394c16f5cae') in 0.001574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/SimpleInfiniteScrollItem.cs
+  artifactKey: Guid(86c30809eaa14cf2b9bff009d476c94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/SimpleInfiniteScrollItem.cs using Guid(86c30809eaa14cf2b9bff009d476c94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744a533088d77e9acfa442545b529c55') in 0.001875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Prefabs
+  artifactKey: Guid(111f6ef672ab944178cd39274ca08f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Prefabs using Guid(111f6ef672ab944178cd39274ca08f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ff6d749cdc9c5e2af736102e3bfa7') in 0.001104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005563 seconds.
+  path: Assets/Scrmizu.Sample/Scripts
+  artifactKey: Guid(47d21966c2eb8d04dab2e92314c214e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts using Guid(47d21966c2eb8d04dab2e92314c214e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ab6ec5cd557e884786129691de6d79') in 0.000799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003648 seconds.
+  path: Assets/Scrmizu/Scripts/Runtime/InfiniteScrollRect.cs
+  artifactKey: Guid(83068abe26b674f59bd89410377dd3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu/Scripts/Runtime/InfiniteScrollRect.cs using Guid(83068abe26b674f59bd89410377dd3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24cd8cbc95598e8e98bc1d9731f233f') in 0.001229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Scrmizu.Sample
+  artifactKey: Guid(988610a58e0e5394f9315091389b3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample using Guid(988610a58e0e5394f9315091389b3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce342f6dcf01f8cf9d938e712080e728') in 0.000560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scrmizu.Sample/Scenes
+  artifactKey: Guid(64e5440823072dc439be831c9c96e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scenes using Guid(64e5440823072dc439be831c9c96e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b748af57af7c11e9dd0328a39b42a7d6') in 0.000626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scrmizu/Scripts/Runtime/PagedScrollRect.cs
+  artifactKey: Guid(511bf31314f81a441990a223528a38d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu/Scripts/Runtime/PagedScrollRect.cs using Guid(511bf31314f81a441990a223528a38d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a692ace2f4f78fdec075cfa208c4e5c1') in 0.001118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/SimpleInfiniteScrollController.cs
+  artifactKey: Guid(38d781c2020b4053819d038395b54798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/SimpleInfiniteScrollController.cs using Guid(38d781c2020b4053819d038395b54798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf73d41535022eb06905f6e933a085e6') in 0.001108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/VerticalScrollItem.cs
+  artifactKey: Guid(1f5faaa4460af5046933c87981e6bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/VerticalScrollItem.cs using Guid(1f5faaa4460af5046933c87981e6bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087a6f97aa6844237691afd2b40fbcf3') in 0.001735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scrmizu.Sample/Scripts/Runtime/HorizontalScrollItem.cs
+  artifactKey: Guid(2575969be51dd4c6eb7541be97ebbd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Scripts/Runtime/HorizontalScrollItem.cs using Guid(2575969be51dd4c6eb7541be97ebbd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c98e9d42c3b188d396c874dc6ad68f5') in 0.002628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error while exporting package: Couldn't copy metadata
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:UnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:23)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 23]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3515ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (3130ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (2515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (2264ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (45.2 KB). Loaded Objects now: 2738.
+Memory consumption went from 91.5 MB to 91.5 MB.
+Total: 7.798302 ms (FindLiveObjects: 0.209554 ms CreateObjectMapping: 0.144216 ms MarkObjects: 7.367010 ms  DeleteObjects: 0.076535 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (45.2 KB). Loaded Objects now: 2738.
+Memory consumption went from 46.3 MB to 46.2 MB.
+Total: 7.486067 ms (FindLiveObjects: 0.207218 ms CreateObjectMapping: 0.138703 ms MarkObjects: 7.054801 ms  DeleteObjects: 0.083872 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (45.3 KB). Loaded Objects now: 2741.
+Memory consumption went from 91.7 MB to 91.6 MB.
+Total: 6.637873 ms (FindLiveObjects: 0.252478 ms CreateObjectMapping: 0.208896 ms MarkObjects: 6.107572 ms  DeleteObjects: 0.068076 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.454894 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Prefabs/HorizontalScrollItem_Reverse.prefab
+  artifactKey: Guid(cc236d189d401481eb3cbcdd66df9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Prefabs/HorizontalScrollItem_Reverse.prefab using Guid(cc236d189d401481eb3cbcdd66df9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2877782bc3c9d91a677e531515c892b2') in 0.159564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Prefabs/VerticalScrollingItem.prefab
+  artifactKey: Guid(9b1954e107aba71499e2f5516c0873b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Prefabs/VerticalScrollingItem.prefab using Guid(9b1954e107aba71499e2f5516c0873b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7192535ea103fdf073bc9a8b2436e08') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Prefabs/SimpleScrollItem.prefab
+  artifactKey: Guid(d4264a9e0bc6d4346a50cb771320fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Prefabs/SimpleScrollItem.prefab using Guid(d4264a9e0bc6d4346a50cb771320fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00b460bda13ecd984fa031c28869b90') in 0.005343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Prefabs/VerticalScrollingItem_Reverse.prefab
+  artifactKey: Guid(0201ee7f20a5f484299b67855d2b91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Prefabs/VerticalScrollingItem_Reverse.prefab using Guid(0201ee7f20a5f484299b67855d2b91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77c56d1f26ea5a723222c1379084c65') in 0.003350 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error while exporting package: Couldn't copy metadata
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:UnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:23)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 23]
+
+Error while exporting package: Couldn't write asset name to file
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:SampleUnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:35)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:12)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 35]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3197ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2943ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (2491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (2258ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (46.1 KB). Loaded Objects now: 2747.
+Memory consumption went from 95.4 MB to 95.4 MB.
+Total: 6.913780 ms (FindLiveObjects: 0.279519 ms CreateObjectMapping: 0.115679 ms MarkObjects: 6.433931 ms  DeleteObjects: 0.083589 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.305714 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Textures/ButtonBG.png
+  artifactKey: Guid(e85cb1bc40d274d40bfc69e73f3b28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Textures/ButtonBG.png using Guid(e85cb1bc40d274d40bfc69e73f3b28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27159de15e0e3376f155d0fa1ac301d') in 0.914958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Textures/Item.png
+  artifactKey: Guid(780119f97b5dbbb419f6111174c76f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Textures/Item.png using Guid(780119f97b5dbbb419f6111174c76f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4613953e3ecabb2766887f7f97cd0c50') in 0.016236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scrmizu.Sample/Package Resources/Textures/Dent.png
+  artifactKey: Guid(4031935466c9a27469a294a591e72f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrmizu.Sample/Package Resources/Textures/Dent.png using Guid(4031935466c9a27469a294a591e72f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725b74cf67bfe797e7617d0d8ef3209d') in 0.013048 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error while exporting package: Couldn't write asset name to file
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:UnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:23)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 23]
+
+Error while exporting package: Couldn't write asset name to file
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:SampleUnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:35)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:12)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 35]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (42.3 KB). Loaded Objects now: 2755.
+Memory consumption went from 101.2 MB to 101.2 MB.
+Total: 7.315976 ms (FindLiveObjects: 0.201021 ms CreateObjectMapping: 0.112117 ms MarkObjects: 6.929492 ms  DeleteObjects: 0.071909 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error while exporting package: Couldn't write asset name to file
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:UnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:23)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 23]
+
+Error while exporting package: Couldn't write asset name to file
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+Scrmizu.Tools.Editor.ScrmizuTool:SampleUnityPackage () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:35)
+Scrmizu.Tools.Editor.ScrmizuTool:.cctor () (at Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs:12)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+[Assets/Scrmizu.Tools/Scripts/Editor/ScrmizuTool.cs line 35]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (42.2 KB). Loaded Objects now: 2758.
+Memory consumption went from 101.2 MB to 101.1 MB.
+Total: 8.429642 ms (FindLiveObjects: 0.248114 ms CreateObjectMapping: 0.216457 ms MarkObjects: 7.887154 ms  DeleteObjects: 0.076833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
